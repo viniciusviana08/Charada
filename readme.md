@@ -33,7 +33,7 @@ Este é um projeto simples de front-end que exibe uma charada aleatória e sua r
 
 ## API
 
-O projeto utiliza uma API local para buscar charadas. Certifique-se de que a API esteja rodando no endereço `http://127.0.0.1:5000/charadas`.
+O projeto utiliza uma API criada por mim para buscar charadas. Certifique-se de que a API esteja rodando no endereço `https://gerador-charadas-api.vercel.app/`.
 
 ## Melhorias Futuras
 
