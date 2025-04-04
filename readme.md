@@ -29,6 +29,7 @@ Este é um projeto simples de front-end que exibe uma charada aleatória e sua r
 1. Clone ou baixe este repositório.
 2. Abra o arquivo `index.html` em um navegador.
 3. Clique nos botões para interagir com o cartão.
+4. Link do Vercel https://charada-azure.vercel.app/
 
 ## API
 
