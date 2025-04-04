@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charada do Dia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-r from-blue-500 to-purple-600 min-h-screen flex items-center justify-center p-6">
+    <div class="card-container">
+        <div class="card" id="flashcard">
+            <!-- Frente do card -->
+            <div class="card-front">
+                <h1 class="text-3xl font-extrabold text-gray-900 mb-6">🤔 Charada do Dia!</h1>
+                <p class="text-lg text-gray-700 italic" id="charada-pergunta">
+                    "O que é, o que é, que sai em pé e corre deitado?"
+                </p>
+                <button id="ver-resposta" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-xl transition duration-300 mt-6">
+                    💡 Ver resposta
+                </button>
+            </div>
+            <!-- Verso do card -->
+            <div class="card-back">
+                <h1 class="text-3xl font-extrabold text-gray-900 mb-6">💡 Resposta</h1>
+                <p class="text-lg text-gray-700 italic" id="resposta-container">
+                    ...
+                </p>
+                <div class="flex gap-4 mt-6">
+                    <button id="voltar-charada" class="bg-gray-300 hover:bg-gray-400 text-gray-900 font-semibold py-3 px-6 rounded-xl transition duration-300">
+                        🔄 Nova charada
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
