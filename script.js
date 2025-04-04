@@ -1,4 +1,4 @@
-const baseUrl = "http://127.0.0.1:5000";
+const baseUrl = "https://gerador-charadas-api-auh8.vercel.app/";
 const aleatorio = "/charadas";
 
 let charadaAtual = null; // Variável global para armazenar a charada atual
